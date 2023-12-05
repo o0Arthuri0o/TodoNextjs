@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+body{
+  background-color: rgb(37, 37, 78);
+}
+
+header {
+  margin: auto;
+  max-width: 512px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: large;
+  padding: 7px 15px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+a:hover{
+  background-color: rgba(188, 238, 255, .2);
+}
+
+button{
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: large;
+  padding: 7px 15px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0);
+}
+button:hover{
+  background-color: rgba(188, 238, 255, .2);
+}
+
+.form_btns{
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  max-width: 350px;
+}
+
+ul {
+  /* border: 1px solid white; */
+  max-width: 512px;
+  margin: auto;
+  list-style-type: none;
+  margin-top: 30px;
+}
+ul > li {
+
+  margin-top: 5px;
+  margin-left: 30px;
+}
+label {
+  color: white;
+  font-weight:400;
+  font-size: large;
+}
+input:checked + label {
+  text-decoration: line-through;
+  color: rgb(68, 87, 145)
+}
+
+input[type='text'] {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 350px;
+  /* margin-left: 56vh; */
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 512px;
+  margin: auto;
+  margin-top: 30px;
+}
